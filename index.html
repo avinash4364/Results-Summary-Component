@@ -22,10 +22,44 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    Your Result 76 of 100 Great You scored higher than 65% of the people who
-    have taken these tests. Summary Reaction 80 / 100 Memory 92 / 100 Verbal 61
-    / 100 Visual 72 / 100 Continue
-
+    <main class="main">
+      <section class="result">
+        <h1 class="primary-heading result-heading">Your Result</h1>
+        <div class="score-display">
+          <p class="score"><span>76</span> of 100</p>
+        </div>
+        <p class="result-text">Great</p>
+        <p class="result-summary">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+      <section class="summary">
+        <h1 class="primary-heading summary-heading">Summary</h1>
+        <ul class="summary-score--list">
+          <li class="summary-score">
+            <img src="./assets/images/icon-reaction.svg" alt="" />
+            <p class="score-title">Reaction</p>
+            <p class="out-of"><span>76</span> / 100</p>
+          </li>
+          <li class="summary-score">
+            <img src="./assets/images/icon-memory.svg" alt="" />
+            <p class="score-title">Memory</p>
+            <p class="out-of"><span>92</span> / 100</p>
+          </li>
+          <li class="summary-score">
+            <img src="./assets/images/icon-verbal.svg" alt="" />
+            <p class="score-title">Verbal</p>
+            <p class="out-of"><span>61</span> / 100</p>
+          </li>
+          <li class="summary-score">
+            <img src="./assets/images/icon-visual.svg" alt="" />
+            <p class="score-title">Visual</p>
+            <p class="out-of"><span>72</span> / 100</p>
+          </li>
+        </ul>
+        <button type="submit">Continue</button>
+      </section>
+    </main>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
