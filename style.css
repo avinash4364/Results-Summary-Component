@@ -13,11 +13,39 @@ html {
 body {
   font-family: 'Hanken Grotesk', sans-serif;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.main {
+  max-width: 100rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.result {
+  flex: 1 1 50%;
+}
+
+.summary {
+  flex: 1 1 50%;
+}
+
+.summary-score {
+  display: flex;
+  justify-content: space-between;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 5rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
